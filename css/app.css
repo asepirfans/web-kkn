@@ -4528,7 +4528,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   left: -5px;
   top: -5px;
   border-radius: 50%;
-  background: red;
+  background: rgb(19, 59, 22);
   pointer-events: none;
   -webkit-transition: -webkit-transform .1s;
   transition: -webkit-transform .1s;
@@ -5962,9 +5962,20 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     display: flex;
     margin: 32px -8px 0;
   }
+  .cursor {
+  cursor: none;
+  width: 0px;
+  height: 0px;
+  }
+
 }
 
 @media only screen and (max-width: 639px) {
+  .cursor {
+  cursor: none;
+  width: 0px;
+  height: 0px;
+  }
   .header__social_inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
