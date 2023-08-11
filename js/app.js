@@ -3417,3 +3417,13 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     }();
   }]).default;
 });
+
+$(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+          $('.icon__arrow__up').addClass('visible');
+        } else {
+          $('.icon__arrow__up').removeClass('visible');
+        }
+      });
+    });
