@@ -3482,7 +3482,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 }
 
 .review__text {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 28px;
   line-height: 1.42857;
 }
@@ -4090,6 +4090,18 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 
 .icon__arrow__up.visible {
   opacity: 1;
+}
+
+.icon__arrow__back {
+  width: 50px;
+  height: 50px;
+  background-color:#fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 100px;
+  left: 180px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .content {
@@ -5044,7 +5056,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     filter: blur(108.731px);
   }
   .review__text {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 18px;
     line-height: 1.77778;
   }
@@ -5404,6 +5416,17 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   .desc__zoom {
     display: none;
   }
+  .icon__arrow__back {
+    width: 50px;
+    height: 50px;
+    background-color:#fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: opacity 0.5s ease-in-out;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -5585,6 +5608,17 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   .details__contact {
     display: none;
   }
+  .icon__arrow__back {
+    width: 50px;
+    height: 50px;
+    background-color:#fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 100px;
+    left: 30px;
+    transition: opacity 0.5s ease-in-out;
+  }
   .owl-nav {
     height: 32px;
     margin-top: 36px;
@@ -5717,7 +5751,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     height: auto;
   }
   .review__text {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
   }
   .review__author {
     display: block;
